@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2455d4305ac4f4bbf080755c0ab261, type: 3}
+  m_Name: New Apply Buff Ability SO
+  m_EditorClassIdentifier: Assembly-CSharp::ApplyBuffAbilitySO
+  id: apply_speed
+  buff: {fileID: 11400000, guid: d9a6a9eb5e49f7443bbad1d0d9d59693, type: 2}
+  fxKeyOverride: speed_proc

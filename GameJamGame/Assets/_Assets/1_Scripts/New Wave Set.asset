@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9352f3954b2e7e4fb1c1c36b260f67c, type: 3}
+  m_Name: New Wave Set
+  m_EditorClassIdentifier: Assembly-CSharp::WaveSet
+  waves:
+  - anchors: []
+    entries:
+    - prefab: {fileID: 3573446775261248996, guid: 840a2e7efe0915a4ca5b8d6d87ea78c2, type: 3}
+      count: 25
+      spawnRate: 2
+      spreadRadius: 5
+    preDelay: 0.5
+    postDelay: 3
+  - anchors: []
+    entries:
+    - prefab: {fileID: 3573446775261248996, guid: 840a2e7efe0915a4ca5b8d6d87ea78c2, type: 3}
+      count: 50
+      spawnRate: 10
+      spreadRadius: 5
+    preDelay: 0.5
+    postDelay: 3
+  - anchors: []
+    entries:
+    - prefab: {fileID: 3573446775261248996, guid: 840a2e7efe0915a4ca5b8d6d87ea78c2, type: 3}
+      count: 300
+      spawnRate: 25
+      spreadRadius: 5
+    preDelay: 0.5
+    postDelay: 3
